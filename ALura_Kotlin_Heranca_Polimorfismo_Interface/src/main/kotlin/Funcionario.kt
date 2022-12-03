@@ -2,7 +2,7 @@ class Funcionario(
     val nome: String,
     val cpf: String,
     val salario: Double,
-    val tipo:  //  0 - Funcionario, 1 - Gerente , 2 - Diretor
+    val tipo: Int  //  0 - Funcionario, 1 - Gerente , 2 - Diretor
 ) {
 
     fun bonificacao(): Double {
