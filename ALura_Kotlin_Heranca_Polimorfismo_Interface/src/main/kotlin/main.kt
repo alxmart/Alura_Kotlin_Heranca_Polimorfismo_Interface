@@ -3,7 +3,7 @@ fun main() {
 
     val alex = Funcionario(
         "Alex",
-        "12345678900",
+        "111.111.111-11",
         1000.0
     )
 
