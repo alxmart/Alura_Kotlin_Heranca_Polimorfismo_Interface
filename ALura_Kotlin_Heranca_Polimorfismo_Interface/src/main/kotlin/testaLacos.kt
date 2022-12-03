@@ -1,13 +1,6 @@
 fun testaLacos() {
-
-    for (i in 1..5) {//
-    // for (i in 5 downTo 1 /*step 2*/) {//
-        /*
-        if (i == 4) {
-
-             /*break*/ continue
-        }
-        */
+    var i = 0
+    while (i < 5) {
         val titular: String = "Alex $i"
         val numeroConta: Int = 1000 + i
         var saldo: Double = i + 10.0
@@ -17,5 +10,4 @@ fun testaLacos() {
         println("Saldo da Conta: $saldo")
         println()
     }
-
 }
