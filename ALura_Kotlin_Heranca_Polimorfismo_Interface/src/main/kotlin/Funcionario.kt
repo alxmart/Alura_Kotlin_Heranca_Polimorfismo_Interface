@@ -13,4 +13,13 @@ class Funcionario(
             else -> return salario * 0.3
         }
     }
+
+    fun autentica(senha: Int) {
+        if(tipo == 1) {
+            //pode autenticar
+        }
+    }
+
+
+
 }

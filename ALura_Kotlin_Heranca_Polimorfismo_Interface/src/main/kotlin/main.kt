@@ -4,7 +4,8 @@ fun main() {
     val alex = Funcionario(
         "Alex",
         "111.111.111-11",
-        1000.0
+        1000.0,
+        0
     )
 
     println("Nome: ${alex.nome}")
